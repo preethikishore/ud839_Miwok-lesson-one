@@ -56,7 +56,8 @@ public class WordAdapter extends ArrayAdapter<Word> {
             iconView.setVisibility(View.GONE);
         }
 
-
+        ImageView playbutton_view = (ImageView) convertView.findViewById(R.id.play_icon);
+        playbutton_view.setImageResource(R.drawable.play_arrow_button);
 
         return convertView;
 
